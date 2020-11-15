@@ -1,20 +1,15 @@
-Algoritmo "Escolha Caso(Operações)"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 23/10/2020
+Algoritmo "Escolha Caso1(OperaÃ§Ãµes)"
 
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 opcao1, opcao2, opcao3, valor1, valor2,resultado :inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 escreval("Digite dois valores")
 leia(valor1, valor2)
 
-escreval("Escolha uma operação")
+escreval("Escolha uma operaÃ§Ã£o")
 escreval("1-> Somar")
 escreval("2-> Subtrair")
 escreval("3-> Multiplicar")
