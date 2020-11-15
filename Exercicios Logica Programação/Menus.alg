@@ -1,19 +1,15 @@
-Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 23/10/2020
+Algoritmo "Menu"
+/
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 opcao1, opcao2, opcao3, valor1, valor2,resultado :inteiro
 
 Inicio
-// menu sem validação
+// menu sem validaÃ§Ã£o
 escreval("Digite dois valores")
 leia(valor1, valor2)
 
-escreval("Escolha uma operação")
+escreval("Escolha uma operaÃ§Ã£o")
 escreval("1-> somar")
 escreval("2-> subtrair")
 leia(opcao1)
@@ -25,19 +21,19 @@ caso 2
 fimescolha
 
 limpatela
- escreval("O resultado é:" , resultado)
+ escreval("O resultado Ã©:" , resultado)
 
 
 
-// Menu com validação
+// Menu com validaÃ§Ã£o
 enquanto(opcao2 <> 1) e (opcao2 <> 2)faca
    escreval ("Escolha uma das opcoes")
-   escreval ("1 -> Começar")
+   escreval ("1 -> ComeÃ§ar")
    escreval ("2-> Sair")
    leia(opcao2)
 fimenquanto
   limpatela
-  escreval("Você escolheu", opcao2)
+  escreval("VocÃª escolheu", opcao2)
   
 fimalgoritmo
 
